@@ -13,6 +13,16 @@ import {
   Globe,
   Youtube,
   CircleAlert,
+  Car,
+  Shield,
+  Building,
+  Heart,
+  Trophy,
+  Clock,
+  Briefcase,
+  Calendar,
+  Crown,
+  AlertTriangle,
 } from "lucide-react";
 
 const iconMap: Record<string, LucideIcon> = {
@@ -29,6 +39,16 @@ const iconMap: Record<string, LucideIcon> = {
   Globe,
   Youtube,
   CircleAlert,
+  Car,
+  Shield,
+  Building,
+  Heart,
+  Trophy,
+  Clock,
+  Briefcase,
+  Calendar,
+  Crown,
+  AlertTriangle,
 };
 
 interface IconProps {
