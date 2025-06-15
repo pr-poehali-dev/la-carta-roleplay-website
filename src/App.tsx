@@ -4,6 +4,7 @@ import News from "@/pages/News";
 import Shop from "@/pages/Shop";
 import Donate from "@/pages/Donate";
 import Profile from "@/pages/Profile";
+import Admin from "@/pages/Admin";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </Router>
   );

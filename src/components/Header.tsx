@@ -46,6 +46,13 @@ const Header = () => {
             >
               Донат
             </a>
+            <a
+              href="/admin"
+              className="text-gray-300 hover:text-orange-400 transition-colors text-sm"
+              title="Админ-панель"
+            >
+              <Icon name="Shield" size={18} />
+            </a>
           </nav>
 
           {/* Auth Buttons */}
@@ -94,6 +101,13 @@ const Header = () => {
                 className="text-gray-300 hover:text-purple-400 px-2 py-1"
               >
                 Донат
+              </a>
+              <a
+                href="/admin"
+                className="text-gray-300 hover:text-orange-400 px-2 py-1 flex items-center"
+              >
+                <Icon name="Shield" className="mr-2" size={16} />
+                Админ-панель
               </a>
               <div className="flex flex-col space-y-2 pt-2">
                 <Button variant="ghost" className="text-gray-300 justify-start">
